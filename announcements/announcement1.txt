@@ -1,0 +1,21 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Thank you to everyone who is a part of the community. This is the first revamp of the site, and the Matrix chat will be coming soon, along with a possible IRC channel (I know, I’ve said this a million times XD).
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEOWo96zGEgcD2M2z8zQOQwntk3L8FAmlndeAACgkQzQOQwntk
+3L/N3g/7BzGPx3fgVvFV4duhqqdCPokxYfeRFkbQ86W3EfYjOxCUSiNiYV7c8gn3
+qUMwWrD66ps8DBKxK3yWbfEupn1d7Pk+/DZP3jPRJ7p9bO29hOEam4RbFJ1nNfrw
+0JGz/3AI4eFACwAXVHLXvgXkYAVE7MbHTJmmZ69bGDO+aytEsk6LfHBRT34DpAFY
+M49Z5TaJIIWq0W6x5M7wrsxEqyFQu6+flSToy5Xn06/a+bvSIUfqKqbgljyb/+1X
+nYolCPLIU0cjTveebmJNMtobxyNUGnQ8b2ntOFnuzGOUhgAxakEGCc4rwy1P6KaZ
+Jy+OFf1yHSf9l72oFMydbkY1gMiyP84QnG+35Ag3+p/UFeKb50f7KSse82drlz6i
+4n1zXgNyziTQ/OpV6f1WNV9wer7KC0pzTJJArQ5aX8jDaGE1qUPbCLgY8NhjU/Y8
+K6zQvV20jXEE/pdfha4L4hKUtVOUjMFZ2/CXJYbp1BOqNIaY+r0y+7yBI8PrXuuJ
+KKYRl9WkFp+02s3B8jOBCBVvrhebEsPxs7jFWY06tkRiVQ/I4XFwMC5jpD4O/UGJ
+rENKbOuARbzTMiGmXoX9UFcsjPtQB3BhyzCIP5Rzs0gUgiei08VDTNweJ/y2v4Dl
+JzR4xOr5i9PUvkitlZ4XBE8QSaUCUrh6kz2Jb3Pe/cSSQE1gtDc=
+=7r0b
+-----END PGP SIGNATURE-----
+

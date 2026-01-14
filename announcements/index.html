@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Punk Gang — a cyberpunk faction built on biohacking, hacking, breakcore, and movement.">
+<title>Punk Gang :: Announcements</title>
+<link rel="icon" href="punkgang.net/favicon.ico" type="image/x-icon">
+<style>
+body {
+  background-color: #000000;
+  color: #00bfff;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  font-size: clamp(12px, 2vw, 16px);
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #050505;
+  border-bottom: 1px solid #00bfff;
+  padding: 8px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+main {
+  margin: 0;
+  padding: 10px;
+}
+
+.ascii {
+  white-space: pre;
+  color: #00bfff;
+  overflow-x: auto;
+  padding: 5px 0;
+}
+
+.announcements {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 10px;
+}
+
+.timestamp {
+  display: inline-block;
+  min-width: 90px;
+  color: #00ffff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #050505;
+  border-top: 1px solid #00bfff;
+  padding: 4px 10px;
+  font-size: 0.85em;
+  color: #00bfff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  header h1 { font-size: 0.8em; }
+  .footer { font-size: 0.75em; padding: 5px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>1.weechat│WeeChat 4.7.1 (C) 2003-2026 - https://weechat.org/</h1>
+</header>
+
+<main id="announcements">
+
+<pre class="ascii">
+<span class="timestamp">│--:--:-- │</span>   ___       __         ______________        _____
+<span class="timestamp">│--:--:-- │</span>   __ |     / /___________  ____/__  /_______ __  /_
+<span class="timestamp">│--:--:-- │</span>   __ | /| / /_  _ \  _ \  /    __  __ \  __ `/  __/
+<span class="timestamp">│--:--:-- │</span>   __ |/ |/ / /  __/  __/ /___  _  / / / /_/ // /_
+<span class="timestamp">│--:--:-- │</span>   ____/|__/  \___/\___/\____/  /_/ /_/\__,_/ \__/
+<span class="timestamp">│--:--:-- │</span> PUNK GANG :: ANNOUNCEMENTS
+<span class="timestamp">│--:--:-- │</span> - - - - - - - - - - - - - - - - - - - - - - - - - -
+</pre>
+
+<div class="announcements">
+<span class="timestamp">│04:29:13 │</span> -- | connected to punkgang.net
+<span class="timestamp">│04:29:13 │</span> -- | read-only announcement wire
+<span class="timestamp">│04:29:13 │</span> -- | messages are signed
+<span class="timestamp">│04:29:13 │</span> -- | logging disabled
+<span class="timestamp">│04:29:13 │</span>
+<span class="timestamp">│04:29:13 │</span> [ANN] all official statements are signed
+<span class="timestamp">│04:29:13 │</span> [ANN] unsigned messages are invalid
+<span class="timestamp">│04:29:13 │</span>
+<span class="timestamp">│04:29:13 │</span> [KEY] punkgang public key fingerprint
+<span class="timestamp">│04:29:13 │</span> [KEY] 396A 3DEB 3184 81C0 F633  6CFC CD03 90C2 7B64 DCBF
+</div>
+
+<div class="announcements">
+<span class="timestamp">│04:30:00 │</span> [ANN] First official announcement: 
+<a href="announcement1.txt" target="_blank">[ View Raw Signed Message ]</a>
+</div>
+
+</main>
+
+<div class="footer">
+  <span class="status">[--:--] [1] [core] 1:weechat</span>
+  <a href="https://punkgang.net">← punkgang.net</a>
+</div>
+
+<script>
+function updateTimestamps() {
+  const now = new Date();
+  const time = now.toLocaleTimeString('en-GB', { hour12: false });
+  document.querySelectorAll('.timestamp').forEach(el => {
+    el.textContent = `│${time} │`;
+  });
+  document.querySelector('.footer .status').textContent = `[${time}] [1] [core] 1:weechat`;
+}
+updateTimestamps();
+setInterval(updateTimestamps, 1000);
+</script>
+
+</body>
+</html>
+
